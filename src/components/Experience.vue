@@ -133,6 +133,7 @@ export default {
 
   #experience > h2 {
     font-size: 3rem;
+    text-align: start;
     margin: 2rem;
   }
 
@@ -167,6 +168,10 @@ export default {
   #experience > h2 {
     font-size: 8rem;
     margin: 3.5rem;
+  }
+
+  .container-skills {
+    margin: 0 7.5rem;
   }
 }
 </style>

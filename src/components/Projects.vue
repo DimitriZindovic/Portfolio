@@ -110,6 +110,10 @@ export default {
   .link-project {
     font-size: 1.2rem;
   }
+
+  #projects {
+    margin: 1rem 2rem;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1524px) {
@@ -129,6 +133,10 @@ export default {
   .link-project {
     font-size: 1.4rem;
   }
+
+  #projects {
+    margin: 1.2rem 2.5rem;
+  }
 }
 
 @media screen and (min-width: 1921px) {
@@ -147,6 +155,10 @@ export default {
   .project > p,
   .link-project {
     font-size: 2rem;
+  }
+
+  #projects {
+    margin: 2.5rem 7.5rem;
   }
 }
 </style>

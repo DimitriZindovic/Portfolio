@@ -161,7 +161,7 @@ export default {
   }
 
   .container-contact > h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .container-contact-cv {

@@ -52,6 +52,8 @@ export default {
 
   .container-about {
     grid-template-columns: 1fr;
+    gap: 4rem;
+    margin: 5rem 0;
   }
 
   .container-about > h2 {
@@ -67,6 +69,12 @@ export default {
   #about {
     height: auto;
     margin: 0 2.5rem;
+  }
+
+  .container-about {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    margin: 6rem 0;
   }
 
   .container-about > h2 {
