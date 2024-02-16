@@ -78,10 +78,6 @@ footer > p {
     font-size: 1rem;
   }
 
-  .nav-links-footer {
-    justify-content: center;
-  }
-
   .nav-footer {
     font-size: 1.8rem;
     margin: 0 2.5rem;
@@ -95,10 +91,6 @@ footer > p {
 
   footer > p {
     font-size: 1.2rem;
-  }
-
-  .nav-links-footer {
-    justify-content: center;
   }
 
   .nav-footer {

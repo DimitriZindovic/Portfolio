@@ -1,8 +1,8 @@
 <template>
   <section id="experience">
-    <h2>TECH</h2>
+    <h2 data-aos="fade-in">TECH</h2>
     <div class="container-skills">
-      <div class="container-front-end">
+      <div class="container-front-end" data-aos="fade-up">
         <h3>FRONT-END</h3>
         <div class="badge">
           <img :src="htmlLogo" alt="HTML logo" /><span>HTML</span>
@@ -17,7 +17,7 @@
           <img :src="vueLogo" alt="Vue logo" /><span>Vue</span>
         </div>
       </div>
-      <div class="container-back-end">
+      <div class="container-back-end" data-aos="fade-up">
         <h3>BACK-END</h3>
         <div class="badge">
           <img :src="phpLogo" alt="PHP logo" /><span>PHP</span>
@@ -29,7 +29,7 @@
           <img :src="mysqlLogo" alt="MySQL logo" /><span>MySQL</span>
         </div>
       </div>
-      <div class="container-other">
+      <div class="container-other" data-aos="fade-up">
         <h3>OTHERS</h3>
         <div class="badge">
           <img :src="gitLogo" alt="Git logo" /><span>Git</span>
@@ -62,6 +62,8 @@ import gitLogo from "../assets/git.png";
 import githubLogo from "../assets/github.png";
 import wordpressLogo from "../assets/wordpress.png";
 import figmaLogo from "../assets/figma.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default {
   name: "Experience",
@@ -79,6 +81,11 @@ export default {
       wordpressLogo,
       figmaLogo,
     };
+  },
+  mounted() {
+    AOS.init({
+      duration: 2000,
+    });
   },
 };
 </script>

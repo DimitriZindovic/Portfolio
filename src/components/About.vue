@@ -1,8 +1,8 @@
 <template>
   <section id="about">
     <div class="container-about">
-      <h2>À PROPOS DE MOI</h2>
-      <p>
+      <h2 data-aos="fade-rigth">À PROPOS DE MOI</h2>
+      <p data-aos="fade-right">
         Je suis actuellement étudiant en 2ème année à l'IIM Digital School.
         Passionné par ce domaine, je cherche continuellement à m'améliorer en
         solidifiant mes bases et en voulant acquérir de nouvelles compétences,
@@ -15,8 +15,16 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default {
   name: "About",
+  mounted() {
+    AOS.init({
+      duration: 1000,
+    });
+  },
 };
 </script>
 

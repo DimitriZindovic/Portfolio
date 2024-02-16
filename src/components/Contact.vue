@@ -1,24 +1,38 @@
 <template>
   <section id="contact">
     <div class="container-contact">
-      <h2>CONTACT</h2>
+      <h2 data-aos="fade-right">CONTACT</h2>
       <div class="container-contact-cv">
         <div class="contact">
           <a
             href="https://www.linkedin.com/in/dimitri-zindovic/"
             class="btn-contact"
+            data-aos="fade-down"
           >
-            <img :src="linkedin" alt="" />LinkedIn
+            <img :src="linkedin" alt="Logo Linkedin" />LinkedIn
           </a>
-          <a href="https://github.com/DimitriZindovic" class="btn-contact">
-            <img :src="githubBlack" alt="" />GitHub
+          <a
+            href="https://github.com/DimitriZindovic"
+            class="btn-contact"
+            data-aos="fade-down"
+          >
+            <img :src="githubBlack" alt="Logo Github" />GitHub
           </a>
-          <a href="mailto:dimitri.zindovic@gmail.com" class="btn-contact">
-            <img :src="email" alt="" />Email
+          <a
+            href="mailto:dimitri.zindovic@gmail.com"
+            class="btn-contact"
+            data-aos="fade-down"
+          >
+            <img :src="email" alt="Icone email" />Email
           </a>
         </div>
         <div class="cv">
-          <a href="../assets/CV_Dimitri_ZINDOVIC.pdf" class="btn-cv" download>
+          <a
+            href="../assets/CV_Dimitri_ZINDOVIC.pdf"
+            class="btn-cv"
+            download
+            data-aos="fade-down"
+          >
             Télécharger mon CV
           </a>
         </div>
@@ -31,6 +45,8 @@
 import linkedin from "../assets/linkedin.png";
 import githubBlack from "../assets/github-black.png";
 import email from "../assets/email.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default {
   name: "Contact",
@@ -40,6 +56,11 @@ export default {
       githubBlack,
       email,
     };
+  },
+  mounted() {
+    AOS.init({
+      duration: 1200,
+    });
   },
 };
 </script>

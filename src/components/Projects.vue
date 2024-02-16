@@ -2,7 +2,12 @@
   <section id="projects">
     <div class="container-project">
       <h2>PROJETS</h2>
-      <div class="project" v-for="(project, index) in projects" :key="index">
+      <div
+        class="project"
+        v-for="(project, index) in projects"
+        :key="index"
+        data-aos="fade-up"
+      >
         <p>{{ project.number }}</p>
         <h3>{{ project.name }}</h3>
         <p>{{ project.technologies }}</p>
@@ -13,6 +18,9 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default {
   name: "Projects",
   data() {
@@ -50,6 +58,11 @@ export default {
         },
       ],
     };
+  },
+  mounted() {
+    AOS.init({
+      duration: 1000,
+    });
   },
 };
 </script>

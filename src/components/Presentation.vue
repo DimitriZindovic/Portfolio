@@ -1,13 +1,21 @@
 <template>
   <section id="presentation">
-    <p>Apprenti Développeur Full Stack</p>
-    <h1>{ Portfolio de * Dimitri ZINDOVIC }</h1>
+    <p data-aos="fade-down">Apprenti Développeur Full Stack</p>
+    <h1 data-aos="fade-down">{ Portfolio de * Dimitri ZINDOVIC }</h1>
   </section>
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default {
   name: "Presentation",
+  mounted() {
+    AOS.init({
+      duration: 3000,
+    });
+  },
 };
 </script>
 
