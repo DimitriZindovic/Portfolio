@@ -43,7 +43,7 @@ h1 {
 @media screen and (max-width: 768px) {
   #presentation {
     margin: 1rem;
-    height: auto;
+    height: 50vh;
   }
 
   #presentation > p {
@@ -52,7 +52,8 @@ h1 {
   }
 
   h1 {
-    font-size: 4rem;
+    margin-top: 2git 5%;
+    font-size: 5rem;
   }
 }
 
