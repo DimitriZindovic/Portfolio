@@ -30,7 +30,7 @@
           <a
             href="../assets/CV_Dimitri_ZINDOVIC.pdf"
             class="btn-cv"
-            download
+            download="CV_Dimitri_ZINDOVIC.pdf"
             data-aos="fade-down"
           >
             Télécharger mon CV
