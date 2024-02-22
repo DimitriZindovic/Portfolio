@@ -52,7 +52,7 @@ h1 {
   }
 
   h1 {
-    margin-top: 2git 5%;
+    margin-top: 25%;
     font-size: 5rem;
   }
 }

@@ -28,7 +28,7 @@
         </div>
         <div class="cv">
           <a
-            href="../assets/CV_Dimitri_ZINDOVIC.pdf"
+            :href="pdfFile"
             class="btn-cv"
             download="CV_Dimitri_ZINDOVIC.pdf"
             data-aos="fade-down"
@@ -55,6 +55,8 @@ export default {
       linkedin,
       githubBlack,
       email,
+      pdfFile: new URL("../assets/CV_Dimitri_ZINDOVIC.pdf", import.meta.url)
+        .href,
     };
   },
   mounted() {
