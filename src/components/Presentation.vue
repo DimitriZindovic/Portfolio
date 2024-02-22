@@ -70,7 +70,7 @@ h1 {
   }
 
   h1 {
-    font-size: 4.5rem;
+    font-size: 7rem;
   }
 }
 
