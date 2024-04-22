@@ -28,9 +28,9 @@ export default {
       projects: [
         {
           number: "01 - 05",
-          name: "Mangoo",
-          technologies: "HTML SCSS",
-          link: "https://github.com/DimitriZindovic/Mangoo",
+          name: "CCAS Bois Colombes",
+          technologies: "Laravel Vue Inertia SCSS",
+          link: "https://github.com/DimitriZindovic/CCAS_Bois_Colombes",
         },
         {
           number: "02 - 05",
@@ -40,9 +40,9 @@ export default {
         },
         {
           number: "03 - 05",
-          name: "Poké shop",
-          technologies: "JavaScript",
-          link: "https://github.com/DimitriZindovic/Poke-shop",
+          name: "Mangoo",
+          technologies: "HTML SCSS",
+          link: "https://github.com/DimitriZindovic/Mangoo",
         },
         {
           number: "04 - 05",
