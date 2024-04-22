@@ -23,6 +23,9 @@
           <img :src="phpLogo" alt="PHP logo" /><span>PHP</span>
         </div>
         <div class="badge">
+          <span>Laravel</span>
+        </div>
+        <div class="badge">
           <img :src="symfonyLogo" alt="Symfony logo" /><span>Symfony</span>
         </div>
         <div class="badge">
