@@ -23,13 +23,13 @@
           <img :src="phpLogo" alt="PHP logo" /><span>PHP</span>
         </div>
         <div class="badge">
-          <span>Laravel</span>
-        </div>
-        <div class="badge">
           <img :src="symfonyLogo" alt="Symfony logo" /><span>Symfony</span>
         </div>
         <div class="badge">
           <img :src="mysqlLogo" alt="MySQL logo" /><span>MySQL</span>
+        </div>
+        <div class="badge">
+          <span>Laravel</span>
         </div>
       </div>
       <div class="container-other" data-aos="fade-up">
