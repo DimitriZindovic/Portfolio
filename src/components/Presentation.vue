@@ -23,7 +23,7 @@ export default {
 #presentation {
   margin-top: 2rem;
   border-top: #f76b15 0.1rem solid;
-  height: 96vh;
+  height: auto;
   margin: 0 5rem;
 }
 
@@ -38,6 +38,7 @@ h1 {
   font-size: 12rem;
   color: #f76b15;
   font-family: "RG_Standard";
+  padding: 0 0 7% 0;
 }
 
 @media screen and (max-width: 768px) {
